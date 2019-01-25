@@ -1,0 +1,12 @@
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\bin\Debug\netstandard2.0\Capitulo03.deps.json
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\bin\Debug\netstandard2.0\Capitulo03.dll
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\bin\Debug\netstandard2.0\Capitulo03.pdb
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Views\ContentPageView.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Capitulo03.csproj.CoreCompileInputs.cache
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Capitulo03.AssemblyInfoInputs.cache
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Capitulo03.AssemblyInfo.cs
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\XamlC.stamp
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Capitulo03.dll
+D:\fontes\c#\xamarin\xamarin\Capitulo03\Capitulo03\Capitulo03\obj\Debug\netstandard2.0\Capitulo03.pdb
