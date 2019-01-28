@@ -1,6 +1,14 @@
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\bin\Debug\netstandard2.0\TestDrive.deps.json
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\bin\Debug\netstandard2.0\TestDrive.dll
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\bin\Debug\netstandard2.0\TestDrive.pdb
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.csprojAssemblyReference.cache
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\ListagemView.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\AgendamentoView.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\DetalhesView.xaml.g.cs
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\ListagemView.xaml.g.cs
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.csproj.CoreCompileInputs.cache
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.AssemblyInfoInputs.cache
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.AssemblyInfo.cs
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\XamlC.stamp
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.dll
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.pdb

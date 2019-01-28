@@ -49,7 +49,7 @@ namespace TestDrive.Views
         {
             var veiculo = (Veiculo)e.Item;
 
-            DisplayAlert("Test Drive", string.Format("Você tocou no modelo '{0}', que custa {1}", veiculo.Nome, veiculo.PrecoFormatado), "ok");
+            Navigation.PushAsync(new DetalhesView(veiculo));
         }
     }
 }
