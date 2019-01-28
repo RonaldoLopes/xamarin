@@ -10,9 +10,9 @@
             <TableRoot>
                 <TableSection Title="Acessórios">
                     <SwitchCell Text="{Binding TextoFreioAbs}" On="{Binding TemFreioABS, Mode=TwoWay}"></SwitchCell>
-                    <SwitchCell Text="{Binding ArCondicionado, Mode=TwoWa}"></SwitchCell>
-                    <SwitchCell Text="{Binding Mp3Player, Mode=TwoWa}" ></SwitchCell>
-                    <TextCell Text="{Binding ValorTotal, Mode=TwoWa}"></TextCell>
+                    <SwitchCell Text="{Binding ArCondicionado, Mode=TwoWay}" On="{Binding TemArCondicionado}"></SwitchCell>
+                    <SwitchCell Text="{Binding Mp3Player, Mode=TwoWay}" On="{Binding TemMp3Player}"></SwitchCell>
+                    <TextCell Text="{Binding ValorTotal, Mode=TwoWay}"></TextCell>
                 </TableSection>
             </TableRoot>
         </TableView>

@@ -50,13 +50,46 @@ namespace TestDrive.Views
             {
                 temFreioABS = value;
                 OnPropertyChanged();//notifica a view
+                OnPropertyChanged(nameof(ValorTotal));
+            }
+        }
+        bool temArCondicionado;
+        public bool TemArCondicionado
+        {
+            get
+            {
+                return temArCondicionado;
+            }
+            set
+            {
+                temArCondicionado = value;
+                OnPropertyChanged();//notifica a view
+                OnPropertyChanged(nameof(ValorTotal));
+            }
+        }
+        bool temMp3Player;
+        public bool TemMp3Player
+        {
+            get
+            {
+                return temMp3Player;
+            }
+            set
+            {
+                temMp3Player = value;
+                OnPropertyChanged();//notifica a view
+                OnPropertyChanged(nameof(ValorTotal));
             }
         }
 
         public string ValorTotal {
             get
             {
-                return string.Format("Valor total: R$: {0}", Veiculo.Preco + (TemFreioABS ? FREIO_ABS : 0));
+                return string.Format("Valor total: R$: {0}", Veiculo.Preco 
+                    + (TemFreioABS ? FREIO_ABS : 0)
+                    + (TemArCondicionado ? AR_CONDICIONADO : 0)
+                    + (TemMp3Player ? MP3_PLAYER : 0)
+                    );
             }
         }
 
