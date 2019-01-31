@@ -12,22 +12,26 @@ namespace TestDrive.Views
 
     public partial class ListagemView : ContentPage
     {
-        public List<Veiculo> Veiculos { get; set; }
-
+        
         public ListagemView()
         {
-            InitializeComponent();
-
-            this.Veiculos = new ListagemVeiculos().Veiculos;
-
-            this.BindingContext = this;
+            InitializeComponent();     
+            
         }
 
-        private void ListViewVeiculos_ItemTapped(object sender, ItemTappedEventArgs e)
+        protected override void OnAppearing()
         {
-            var veiculo = (Veiculo)e.Item;
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Veiculo>(this, "VeiculoSecionado",
+                (msg) => {
+                    Navigation.PushAsync(new DetalhesView(msg));
+                });
+        }
 
-            Navigation.PushAsync(new DetalhesView(veiculo));
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Veiculo>(this, "VeiculoSelecionado");
         }
     }
 }

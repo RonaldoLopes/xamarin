@@ -102,4 +102,6 @@ D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Andro
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\bin\Debug\netstandard2.0\TestDrive.dll
+D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\bin\Debug\TestDrive.dll.mdb
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\linksrc\TestDrive.dll.mdb

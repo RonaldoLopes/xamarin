@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestDrive.Models;
+using TestDrive.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,77 +13,42 @@ namespace TestDrive.Views
 
     public partial class AgendamentoView : ContentPage
     {
+        public AgendamentoViewModel ViewModel { get; set; }
 
-        public Agendamento Agendamento { get; set; }
-
-        public Veiculo Veiculo
-        {
-            get { return Agendamento.Veiculo; }
-            set { Agendamento.Veiculo = value; }
-        }
-        public string Nome
-        {
-            get { return Agendamento.Nome; }
-            set { Agendamento.Nome = value; }
-        }
-        public string Fone
-        {
-            get { return Agendamento.Fone; }
-            set { Agendamento.Fone = value; }
-        }
-        public string Email
-        {
-            get { return Agendamento.Email; }
-            set { Agendamento.Email = value; }
-        }
-
-
-        public DateTime DataAgendamento
-        {
-            get
-            {
-                return Agendamento.DataAgendamento;
-            }
-            set
-            {
-                Agendamento.DataAgendamento = value;
-            }
-
-        }
-        public TimeSpan HoraAgendamento
-        {
-            get
-            {
-                return Agendamento.HoraAgendamento;
-            }
-            set
-            {
-                Agendamento.HoraAgendamento = value;
-            }
-        }
         public AgendamentoView(Veiculo veiculo)
         {
             InitializeComponent();
-            this.Agendamento = new Agendamento();
-            this.Agendamento.Veiculo = veiculo;
-            this.BindingContext = this;
+            this.ViewModel = new AgendamentoViewModel(veiculo);
+            this.BindingContext = this.ViewModel;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+
+        protected override void OnAppearing()
         {
-            DisplayAlert("Agendamento",
-            string.Format(
-            @"Veiculo: {0}
-            Nome: {1}
-            Fone: {2}
-            E-mail: {3}
-            Data Agendamento: {4}
-            Hora Agendamento: {5}",
-            Nome,
-            Fone,
-            Email,
-            DataAgendamento.ToString("dd/MM/yyyy"),
-            HoraAgendamento), "OK");
+            base.OnAppearing();
+            MessagingCenter.Subscribe<Agendamento>(this, "Agendamento", (msg) =>
+            {
+                DisplayAlert("Agendamento",
+                string.Format(
+                @"Veiculo: {0}
+                Nome: {1}
+                Fone: {2}
+                E-mail: {3}
+                Data Agendamento: {4}
+                Hora Agendamento: {5}",
+                ViewModel.Veiculo,
+                ViewModel.Nome,
+                ViewModel.Fone,
+                ViewModel.Email,
+                ViewModel.DataAgendamento.ToString("dd/MM/yyyy"),
+               ViewModel.HoraAgendamento.ToString()), "OK");
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<Agendamento>(this, "Agendamento");
         }
     }
 }

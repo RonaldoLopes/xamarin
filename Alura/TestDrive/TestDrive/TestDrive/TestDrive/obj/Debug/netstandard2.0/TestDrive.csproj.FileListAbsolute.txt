@@ -9,6 +9,5 @@ D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\D
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.csproj.CoreCompileInputs.cache
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.AssemblyInfoInputs.cache
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.AssemblyInfo.cs
-D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\XamlC.stamp
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.dll
 D:\fontes\c#\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.pdb
