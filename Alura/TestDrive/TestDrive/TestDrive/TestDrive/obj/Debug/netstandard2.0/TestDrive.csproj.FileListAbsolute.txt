@@ -25,3 +25,4 @@ D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.dll
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.pdb
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\XamlC.stamp
+D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs

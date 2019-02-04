@@ -115,3 +115,5 @@ D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\TestDrive.iOS.csproj.CopyComplete
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\TestDrive.iOS.exe
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\TestDrive.iOS.pdb
+D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.pdb

@@ -33,21 +33,16 @@ namespace TestDrive.Views
 
                 if (confirma)
                 {
-                    DisplayAlert("Agendamento",
-                    string.Format(
-                    @"Veiculo: {0}
-                    Nome: {1}
-                    Fone: {2}
-                    E-mail: {3}
-                    Data Agendamento: {4}
-                    Hora Agendamento: {5}",
-                    ViewModel.Veiculo,
-                    ViewModel.Nome,
-                    ViewModel.Fone,
-                    ViewModel.Email,
-                    ViewModel.DataAgendamento.ToString("dd/MM/yyyy"),
-                   ViewModel.HoraAgendamento.ToString()), "OK");
+                    this.ViewModel.SalvarAgendamento();
                 }
+            });
+
+            MessagingCenter.Subscribe<Agendamento>(this, "SucessoAgendamento", (msg) => {
+                DisplayAlert("Agendamento", "Agendamento salvo.", "ok");
+            });
+
+            MessagingCenter.Subscribe<ArgumentException>(this, "FalhaAgendamento", (msg) => {
+                DisplayAlert("Agendamento", "falha ao Agendar", "ok");
             });
         }
 
@@ -55,6 +50,9 @@ namespace TestDrive.Views
         {
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<Agendamento>(this, "Agendamento");
+
+            MessagingCenter.Unsubscribe<Agendamento>(this, "SucessoAgendamento");
+            MessagingCenter.Unsubscribe<ArgumentException>(this, "FalhaAgendamento");
         }
     }
 }
