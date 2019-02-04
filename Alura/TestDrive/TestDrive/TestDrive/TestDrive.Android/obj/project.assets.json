@@ -1166,11 +1166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\TestDrive.Android.csproj",
+      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\TestDrive.Android.csproj",
       "projectName": "TestDrive.Android",
-      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\TestDrive.Android.csproj",
+      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\TestDrive.Android.csproj",
       "packagesPath": "C:\\Users\\Risc\\.nuget\\packages\\",
-      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\obj\\",
+      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1187,8 +1187,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj": {
-              "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj"
+            "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj": {
+              "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj"
             }
           }
         }

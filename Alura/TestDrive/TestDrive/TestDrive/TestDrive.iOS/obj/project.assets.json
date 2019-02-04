@@ -1028,11 +1028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\TestDrive.iOS.csproj",
+      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\TestDrive.iOS.csproj",
       "projectName": "TestDrive.iOS",
-      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\TestDrive.iOS.csproj",
+      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\TestDrive.iOS.csproj",
       "packagesPath": "C:\\Users\\Risc\\.nuget\\packages\\",
-      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\obj\\",
+      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1049,8 +1049,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj": {
-              "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj"
+            "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj": {
+              "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj"
             }
           }
         }

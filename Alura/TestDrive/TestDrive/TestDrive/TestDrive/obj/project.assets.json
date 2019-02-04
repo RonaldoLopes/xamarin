@@ -565,11 +565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj",
+      "projectUniqueName": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj",
       "projectName": "TestDrive",
-      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj",
+      "projectPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\TestDrive.csproj",
       "packagesPath": "C:\\Users\\Risc\\.nuget\\packages\\",
-      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\obj\\",
+      "outputPath": "D:\\fontes\\c#\\xamarin\\xamarin\\xamarin\\xamarin\\Alura\\TestDrive\\TestDrive\\TestDrive\\TestDrive\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

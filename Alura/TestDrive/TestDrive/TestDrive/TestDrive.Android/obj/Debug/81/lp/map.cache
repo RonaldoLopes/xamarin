@@ -1,4 +1,6 @@
 FormsViewGroup
+System.Net.Http.Extensions
+System.Net.Http.Primitives
 System.Runtime
 TestDrive
 Xamarin.Android.Arch.Core.Common
@@ -25,5 +27,3 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
-System.Net.Http.Extensions
-System.Net.Http.Primitives
