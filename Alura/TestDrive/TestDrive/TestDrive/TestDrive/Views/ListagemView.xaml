@@ -5,11 +5,9 @@
               xmlns:vm="clr-namespace:TestDrive.ViewModels"
              Title="Test Drive"
              x:Class="TestDrive.Views.ListagemView">
-    <ContentPage.BindingContext>
-        <vm:ListagemViewModel></vm:ListagemViewModel>
-    </ContentPage.BindingContext>
-
+      
     <StackLayout Padding="25">
+        <ActivityIndicator IsRunning="{Binding Aguarde}" IsVisible="{Binding Aguarde}"></ActivityIndicator>
         <ListView x:Name="listViewVeiculos" ItemsSource="{Binding Veiculos}" Margin="25"
                   SelectedItem="{Binding VeiculoSelecionado}">
             <ListView.ItemTemplate>
