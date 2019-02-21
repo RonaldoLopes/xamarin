@@ -22,28 +22,33 @@ namespace TestDrive.Views
             this.BindingContext = this.ViewModel;
         }
 
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            MessagingCenter.Subscribe<Agendamento>(this, "Agendamento", async (msg) =>
-            {
-
-                var confirma = await DisplayAlert("Salvar agendamento", "Deseja enviar?", "Sim", "Não");
-
-                if (confirma)
+            MessagingCenter.Subscribe<Agendamento>(this, "Agendamento",
+                async (msg) =>
                 {
-                    this.ViewModel.SalvarAgendamento();
-                }
-            });
+                    var confirma = await DisplayAlert("Salvar Agendamento",
+                    "Deseja mesmo enviar o agendamento?",
+                    "sim", "não");
 
-            MessagingCenter.Subscribe<Agendamento>(this, "SucessoAgendamento", (msg) => {
-                DisplayAlert("Agendamento", "Agendamento salvo.", "ok");
-            });
+                    if (confirma)
+                    {
+                        this.ViewModel.SalvarAgendamento();
+                    }
+                });
 
-            MessagingCenter.Subscribe<ArgumentException>(this, "FalhaAgendamento", (msg) => {
-                DisplayAlert("Agendamento", "falha ao Agendar", "ok");
-            });
+            MessagingCenter.Subscribe<Agendamento>(this, "SucessoAgendamento",
+                (msg) =>
+                {
+                    DisplayAlert("Agendamento", "Agendamento salvo com sucesso!", "ok");
+                });
+
+            MessagingCenter.Subscribe<ArgumentException>(this, "FalhaAgendamento",
+                (msg) =>
+                {
+                    DisplayAlert("Agendamento", "Falha ao agendar o test drive! Verifique os dados e tente novamente mais tarde!", "ok");
+                });
         }
 
         protected override void OnDisappearing()

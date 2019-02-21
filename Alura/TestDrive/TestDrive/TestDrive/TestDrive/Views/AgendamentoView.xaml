@@ -4,13 +4,13 @@
              x:Class="TestDrive.Views.AgendamentoView"
              Title="{Binding Veiculo.Nome}">
 
-    <StackLayout>
+    <StackLayout Margin="25">
         <TableView>
             <TableRoot>
-                <TableSection Title="Seus dados">
+                <TableSection Title="Seus Dados">
                     <EntryCell Label="Nome:" Text="{Binding Nome}"></EntryCell>
                     <EntryCell Label="Fone:" Keyboard="Telephone" Text="{Binding Fone}"></EntryCell>
-                    <EntryCell Label="Email:" Keyboard="Email" Text="{Binding Email}"></EntryCell>
+                    <EntryCell Label="E-mail:" Keyboard="Email" Text="{Binding Email}"></EntryCell>
                 </TableSection>
                 <TableSection Title="Agendamento">
                     <ViewCell>
@@ -18,7 +18,6 @@
                             <Label Text="Data:"></Label>
                             <DatePicker Date="{Binding DataAgendamento}"></DatePicker>
                         </StackLayout>
-                    
                     </ViewCell>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal" Margin="12,0,0,0">

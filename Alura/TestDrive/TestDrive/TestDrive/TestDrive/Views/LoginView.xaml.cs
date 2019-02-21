@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using TestDrive.Models;
+using TestDrive.Service;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,5 +17,23 @@ namespace TestDrive.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            MessagingCenter.Subscribe<LoginException>(this, "FalhaLogin", async (exc) => 
+            {
+                await DisplayAlert("Login", exc.Message, "OK");
+            });
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Unsubscribe<LoginException>(this, "FalhaLogin");
+        }
+    }
+
+  
 }

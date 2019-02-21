@@ -13,56 +13,65 @@ namespace TestDrive.ViewModels
     {
         const string URL_POST_AGENDAMENTO = "https://aluracar.herokuapp.com/salvaragendamento";
 
-        public AgendamentoViewModel(Veiculo veiculo)
-        {
-            this.Agendamento = new Agendamento();
-            this.Agendamento.Veiculo = veiculo;
-
-            AgendarCommand = new Command(() =>
-            {
-                MessagingCenter.Send<Agendamento>(this.Agendamento, "Agendamento");
-            }, () =>
-            {
-                return !string.IsNullOrEmpty(this.Nome) && !string.IsNullOrEmpty(this.Fone) && !!string.IsNullOrEmpty(this.Email);
-            });
-        }
         public Agendamento Agendamento { get; set; }
 
         public Veiculo Veiculo
         {
-            get { return Agendamento.Veiculo; }
-            set { Agendamento.Veiculo = value; OnPropertyChanged();
-                ((Command)AgendarCommand).ChangeCanExecute(); }
+            get
+            {
+                return Agendamento.Veiculo;
+            }
+            set
+            {
+                Agendamento.Veiculo = value;
+            }
         }
+
         public string Nome
         {
-            get { return Agendamento.Nome; }
+            get
+            {
+                return Agendamento.Nome;
+            }
+
             set
             {
                 Agendamento.Nome = value;
                 OnPropertyChanged();
                 ((Command)AgendarCommand).ChangeCanExecute();
             }
+
         }
         public string Fone
         {
-            get { return Agendamento.Fone; }
+            get
+            {
+                return Agendamento.Fone;
+            }
+
             set
             {
                 Agendamento.Fone = value;
                 OnPropertyChanged();
                 ((Command)AgendarCommand).ChangeCanExecute();
             }
+
         }
         public string Email
         {
-            get { return Agendamento.Email; }
-            set {
+            get
+            {
+                return Agendamento.Email;
+            }
+
+            set
+            {
                 Agendamento.Email = value;
                 OnPropertyChanged();
                 ((Command)AgendarCommand).ChangeCanExecute();
             }
         }
+
         public DateTime DataAgendamento
         {
             get
@@ -73,8 +82,8 @@ namespace TestDrive.ViewModels
             {
                 Agendamento.DataAgendamento = value;
             }
-
         }
+
         public TimeSpan HoraAgendamento
         {
             get
@@ -85,6 +94,24 @@ namespace TestDrive.ViewModels
             {
                 Agendamento.HoraAgendamento = value;
             }
+        }
+
+
+        public AgendamentoViewModel(Veiculo veiculo)
+        {
+            this.Agendamento = new Agendamento();
+            this.Agendamento.Veiculo = veiculo;
+
+            AgendarCommand = new Command(() =>
+            {
+                MessagingCenter.Send<Agendamento>(this.Agendamento
+                    , "Agendamento");
+            }, () =>
+            {
+                return !string.IsNullOrEmpty(this.Nome)
+                 && !string.IsNullOrEmpty(this.Fone)
+                 && !string.IsNullOrEmpty(this.Email);
+            });
         }
 
         public ICommand AgendarCommand { get; set; }
@@ -104,22 +131,16 @@ namespace TestDrive.ViewModels
                 email = Email,
                 carro = Veiculo.Nome,
                 preco = Veiculo.Preco,
-                DataAgendamento = dataHoraAgendamento
+                dataAgendamento = dataHoraAgendamento
             });
 
             var conteudo = new StringContent(json, Encoding.UTF8, "application/json");
 
             var resposta = await cliente.PostAsync(URL_POST_AGENDAMENTO, conteudo);
-
             if (resposta.IsSuccessStatusCode)
-            {
                 MessagingCenter.Send<Agendamento>(this.Agendamento, "SucessoAgendamento");
-            }
             else
-            {
                 MessagingCenter.Send<ArgumentException>(new ArgumentException(), "FalhaAgendamento");
-            }
-
         }
 
     }
