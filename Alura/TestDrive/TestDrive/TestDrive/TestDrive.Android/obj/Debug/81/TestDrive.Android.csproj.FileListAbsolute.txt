@@ -136,6 +136,7 @@ D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\res\drawable\aluracar.png
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\R.cs.flag
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\R.txt
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\uploadflags.txt
@@ -210,7 +211,4 @@ D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\res\drawable\aluracar.png
-D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive\bin\Debug\netstandard2.0\TestDrive.dll
-D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\bin\Debug\TestDrive.dll.mdb
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.Android\obj\Debug\81\linksrc\TestDrive.dll.mdb

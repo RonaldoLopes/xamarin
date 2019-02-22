@@ -9,8 +9,39 @@ using Xamarin.Forms;
 
 namespace TestDrive.ViewModels
 {
-    public class LoginViewModel
+    public class LoginViewModel : BaseViewModel
     {
+        public ICommand EntrarCommand { get; private set; }
+
+        public LoginViewModel()
+        {
+            EntrarCommand = new Command(
+                async () =>
+                {
+                    try
+                    {
+                        var loginService = new LoginService();
+                        var resultado = await loginService.FazerLogin(new Login(usuario, senha));
+
+                        if (resultado.IsSuccessStatusCode)
+                            MessagingCenter.Send<Usuario>(new Usuario(), "SucessoLogin");
+                        else
+                            MessagingCenter.Send<LoginException>(new LoginException(), "FalhaLogin");
+                    }
+                    catch (Exception exc)
+                    {
+
+                        MessagingCenter.Send<LoginException>(new
+                            LoginException("Erro de comunicação com o servidor.", exc), "FalhaLogin");
+                    }
+                },
+            () =>
+            {
+                return !string.IsNullOrEmpty(usuario)
+                    && !string.IsNullOrEmpty(senha);
+            });
+        }
+
         private string usuario;
         public string Usuario
         {
@@ -32,22 +63,15 @@ namespace TestDrive.ViewModels
                 ((Command)EntrarCommand).ChangeCanExecute();
             }
         }
+    }
 
-        public ICommand EntrarCommand { get; private set; }
+    public class LoginException : Exception
+    {
+        public LoginException() : base() { }
 
-        public LoginViewModel()
+        public LoginException(string message, Exception innerException) : base(message, innerException)
         {
-            EntrarCommand = new Command(async () =>
-            {
-                var loginService = new LoginService();
-                await loginService.FazerLogin(new Login(usuario, senha) { });
-            }, () =>
-            {
-                return !string.IsNullOrEmpty(usuario)
-                        && !string.IsNullOrEmpty(senha);
-            });
-        }
 
-        
+        }
     }
 }

@@ -47,7 +47,6 @@ D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\TestDrive.dll
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\TestDrive.pdb
-D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\bin\iPhoneSimulator\Debug\TestDrive.dll.mdb
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 D:\fontes\c#\xamarin\xamarin\xamarin\xamarin\Alura\TestDrive\TestDrive\TestDrive\TestDrive.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
